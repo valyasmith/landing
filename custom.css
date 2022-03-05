@@ -60,3 +60,34 @@ aside p {
 margin-bottom: var(--spacing-company);
 line-height: 1.25;
 }
+
+.die-info td {
+    color: #ffffff;
+    text-align: center;
+}
+
+.die-counter {
+    text-align: center;
+    display: block;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    line-height: 1.2em;
+    padding: 5px;
+    margin: 5px;
+}
+
+.die-counter.red,
+.die-counter.red small {
+    background-color: rgb(82, 3, 3);
+    color: #ffffff;
+}
+
+.die-counter.yellow,
+.die-counter.yellow small {
+    background-color: yellow;
+    color: #000000;
+}
+
+.die-period {
+    font-size: 0.7em;
+}
