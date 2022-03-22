@@ -78,13 +78,13 @@ line-height: 1.25;
 
 .die-counter.red,
 .die-counter.red small {
-    background-color: rgb(82, 3, 3);
+    background-color: rgb(204, 1, 1);
     color: #ffffff;
 }
 
 .die-counter.yellow,
 .die-counter.yellow small {
-    background-color: yellow;
+    background-color: rgb(238, 215, 111);
     color: #000000;
 }
 
